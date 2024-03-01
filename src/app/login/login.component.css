@@ -1,0 +1,27 @@
+body {
+    background-color: #f0f0f0; /* Change background color */
+}
+
+.card {
+    border-radius: 15px; /* Rounded corners for the card */
+}
+
+.btn-google {
+    background-color: #dd4b39; /* Google Sign In button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn-google:hover {
+    background-color: #c23321; /* Darken color on hover */
+}
+
+@media (max-width: 768px) {
+    /* Responsive styles for smaller devices */
+    .col-4 {
+        width: 80%; /* Adjust column width for smaller screens */
+    }
+}
